@@ -8,3 +8,4 @@ Este repositório contempla os artigos lidos na disciplina de Projeto de Softwar
 
 [03. No Silver Bullet: Essence and Accidents of Software Engineering](https://github.com/Palomadcarvalho/Projeto-de-Software---Resenha-de-Artigos/blob/main/03.%20No%20Silver%20Bullet%3A%20Essence%20and%20Accidents%20of%20Software%20Engineering.md)
 
+[04. On the Criteria To Be Used in Decomposing Systems into Modules](https://github.com/Palomadcarvalho/Projeto-de-Software---Resenha-de-Artigos/blob/main/04.%20On%20the%20Criteria%20To%20Be%20Used%20in%20Decomposing%20Systems%20into%20Modules)
