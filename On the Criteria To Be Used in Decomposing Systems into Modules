@@ -1,0 +1,21 @@
+# Resenha - On the Criteria To Be Used in Decomposing Systems into Modules
+
+A modularização, no contexto da Programação, pode ser entendida como uma atribuição de responsabilidades dentro de um sistema. Essa atribuição envolve decisões de projeto que precisam ser definidas antes mesmo do início do desenvolvimento. O artigo de David L. Parnas, publicado em 1972, é um marco por propor critérios claros para a decomposição de sistemas em módulos, discutindo as implicações dessas escolhas no tempo de desenvolvimento, na flexibilidade e na compreensibilidade do software.
+
+Para exemplificar sua proposta, Parnas apresenta o sistema de produção de índice KWIC (_Key Word in Context_), que recebe linhas de texto e gera todas as suas rotações circulares em ordem alfabética. Embora seja um sistema simples, ele serve de base para discutir diferentes formas de modularização.
+
+Na Modularização 1 (convencional), os módulos seguem as etapas de processamento: entrada, rotação circular, ordenação, saída e controle mestre. Essa visão é a mais intuitiva e próxima do que programadores costumam adotar, pois reflete o próprio fluxo de execução. O problema é que, nesse modelo, qualquer alteração em decisões centrais (como formato de armazenamento ou forma de ordenação) acaba impactando diversos módulos, tornando o sistema mais rígido e difícil de manter.
+
+Já a Modularização 2 (não convencional) rompe com a ideia de que cada módulo deve refletir uma fase do processamento. Em vez disso, cada módulo é responsável por ocultar uma decisão de projeto que pode mudar. Assim, existem módulos para armazenamento de linhas, para gerar rotações circulares, para ordenação e assim por diante, mas a forma como cada decisão é implementada fica escondida dos demais módulos. Esse critério, chamado por Parnas de “ocultamento de informações”, permite que mudanças em aspectos internos de um módulo não afetem os outros, garantindo maior flexibilidade e facilitando tanto a manutenção quanto o desenvolvimento paralelo por diferentes equipes.
+
+O autor também alerta que a segunda forma de modularização, se implementada ingenuamente como simples chamadas de sub-rotinas, pode ser menos eficiente. Porém, propõe alternativas de implementação que eliminam essa perda de desempenho, mostrando que é possível conciliar modularidade com eficiência.
+
+De forma geral, o artigo marca uma virada de pensamento: em vez de decompor sistemas baseados em fluxogramas ou etapas de execução, devemos decompor com base nas decisões de projeto mais difíceis ou sujeitas a mudanças, escondendo essas decisões dentro de módulos. Essa visão antecipou o que, mais tarde, se tornaria base de princípios amplamente usados em engenharia de software, como a separação de responsabilidades e a programação orientada a objetos.
+
+## Aplicação no meu contexto profissional
+
+Lendo esse artigo, consigo ver como as ideias de Parnas fazem sentido não só em teoria, mas também no meu trabalho. No meu dia a dia, lido com projetos que mudam o tempo todo, seja na área de gestão de pessoas e nos estudos e projetos em engenharia de software.
+
+No RH, por exemplo, sistemas como folha de pagamento, controle de ponto ou admissões digitais precisam estar conectados, mas cada parte deve evoluir separadamente. Se tudo fosse amarrado rigidamente, qualquer pequena mudança em uma regra trabalhista obrigaria a reescrever o sistema inteiro. Pensar em modularização como Parnas sugere ajuda a isolar mudanças inevitáveis e reduzir impactos.
+
+O artigo me fez refletir que modularizar não é apenas uma técnica, mas quase uma filosofia de projeto. É sobre criar sistemas que aceitam bem o futuro, porque sabemos que o futuro sempre traz mudanças.
