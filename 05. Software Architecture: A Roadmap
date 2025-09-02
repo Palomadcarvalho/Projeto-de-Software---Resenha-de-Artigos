@@ -1,5 +1,31 @@
 # Resenha - Software Architecture: A Roadmap
 
+O artigo _Software Architecture: A Roadmap_, escrito por David Garlan, apresenta a arquitetura de software como um dos principais desafios na construção de sistemas complexos. Quando bem projetada, a arquitetura garante que o sistema atenda a requisitos fundamentais como desempenho, confiabilidade, portabilidade, escalabilidade e interoperabilidade. Entretanto, uma arquitetura mal elaborada pode comprometer todo o projeto e levar ao fracasso.
 
+O autor destaca que, ao longo dos últimos anos, profissionais têm buscado alternativas para aprimorar o desenvolvimento arquitetural. Esse movimento pode ser observado no crescimento de livros e cursos específicos, programas de pós-graduação, conferências e workshops especializados, bem como na criação de normas formais de padronização de arquiteturas. Essas iniciativas reforçam a percepção de que a arquitetura deixou de ser um aspecto secundário e passou a ocupar papel central no desenvolvimento de sistemas.
+
+Entre as definições existentes, a mais usual descreve a arquitetura de software como a “estrutura global” de um sistema. Essa definição engloba a forma como os componentes são organizados e interagem entre si, quais são os principais caminhos de comunicação e quais são as propriedades essenciais de cada parte. A partir dessa concepção, Garlan apresenta seis papéis fundamentais da arquitetura:
+
+Compreensão: simplifica a análise de sistemas complexos ao oferecer um nível mais alto de abstração, ao mesmo tempo em que expõe restrições e as justificativas por trás das decisões de projeto.
+
+Reuso: possibilita a reutilização em diferentes níveis, desde componentes até frameworks e padrões arquiteturais, reforçando o valor de arquiteturas de domínio e design patterns.
+
+Construção: funciona como um plano parcial de desenvolvimento, delimitando componentes principais e suas dependências; diagramas em camadas são exemplos de representações que esclarecem fronteiras de abstração e interfaces.
+
+Evolução: evidencia os pilares estruturais de um sistema, facilitando manutenções, estimativas de custo e adaptações ao longo do tempo. A arquitetura também separa as preocupações relacionadas à funcionalidade de um componente dos mecanismos de conexão com outros.
+
+Análise: oferece oportunidades de verificação, como consistência, aderência a estilos arquiteturais, conformidade com atributos de qualidade, análise de dependências e avaliações específicas para certos domínios.
+
+Gestão: em ambientes industriais, a conquista de uma arquitetura viável é considerada um marco crítico. Revisões arquiteturais auxiliam na definição de requisitos, estratégias de implementação e análise de riscos.
+
+Historicamente, cerca de dez anos atrás, a prática de arquitetura era tratada de maneira ad hoc, com descrições baseadas em diagramas informais de caixas e linhas, adaptações improvisadas de projetos anteriores e ausência de métodos confiáveis para assegurar que a implementação refletisse o design arquitetural. Com o tempo, a indústria passou a reconhecer a importância de um corpo mais estruturado de conhecimento, o que levou à criação de um vocabulário comum, de padrões arquiteturais e da ideia de explorar semelhanças em sistemas de um mesmo domínio.
+
+Atualmente, a arquitetura de software se consolidou como atividade essencial de projeto. Profissionais especializados, como arquitetos de software, assumem funções centrais em equipes, e linguagens formais de descrição arquitetural (ADLs) passaram a apoiar a representação e análise de sistemas. Além disso, livros, cursos acadêmicos e documentação de estilos arquiteturais reforçam a disseminação do tema. Esse amadurecimento trouxe mais clareza e previsibilidade ao desenvolvimento, permitindo maior reutilização e padronização.
+
+Para o futuro, o autor observa que, apesar dos avanços, a arquitetura ainda não é ensinada ou praticada de forma universal em toda a indústria. Esse processo de consolidação é gradual: depende tanto da difusão natural do conhecimento quanto da evolução das bases tecnológicas. Garlan aponta que os próximos anos trarão desafios adicionais relacionados à integração de componentes adquiridos de terceiros, à transição para modelos de computação em rede e ao avanço da computação pervasiva. Todos esses cenários exigirão arquiteturas mais flexíveis, escaláveis e adaptativas.
+
+Conclui-se que a área de arquitetura de software já percorreu um longo caminho de amadurecimento, mas ainda tem muito a evoluir. O futuro aponta para a consolidação da disciplina como ramo fundamental da engenharia de software, cada vez mais voltado a lidar com a complexidade, a integração e as constantes mudanças tecnológicas.
 
 ## Aplicação no meu contexto profissional
+
+Percebo que muitas situações descritas no artigo estão diretamente relacionadas ao meu dia a dia profissional, especialmente no que diz respeito à terceirização e integração de sistemas. É comum que empresas optem por adquirir soluções já existentes em vez de desenvolvê-las internamente, visando rapidez na entrega. No entanto, essas integrações nem sempre acontecem de forma eficiente, pois os sistemas podem apresentar incompatibilidades. Acredito que, se a arquitetura tivesse sido pensada desde o início para contemplar tais integrações, boa parte dessas dificuldades seria evitada, resultando em menos retrabalho e em implementações mais rápidas e eficazes.
