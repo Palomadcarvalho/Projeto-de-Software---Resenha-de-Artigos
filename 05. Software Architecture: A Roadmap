@@ -1,6 +1,6 @@
 # Resenha - Software Architecture: A Roadmap
 
-O artigo _Software Architecture: A Roadmap_, escrito por David Garlan, apresenta a arquitetura de software como um dos principais desafios na construção de sistemas complexos. Quando bem projetada, a arquitetura garante que o sistema atenda a requisitos fundamentais como desempenho, confiabilidade, portabilidade, escalabilidade e interoperabilidade. Entretanto, uma arquitetura mal elaborada pode comprometer todo o projeto e levar ao fracasso.
+O artigo Software Architecture: A Roadmap, escrito por David Garlan, apresenta a arquitetura de software como um dos principais desafios na construção de sistemas complexos. Quando bem projetada, a arquitetura garante que o sistema atenda a requisitos fundamentais como desempenho, confiabilidade, portabilidade, escalabilidade e interoperabilidade. Entretanto, uma arquitetura mal elaborada pode comprometer todo o projeto e levar ao fracasso.
 
 O autor destaca que, ao longo dos últimos anos, profissionais têm buscado alternativas para aprimorar o desenvolvimento arquitetural. Esse movimento pode ser observado no crescimento de livros e cursos específicos, programas de pós-graduação, conferências e workshops especializados, bem como na criação de normas formais de padronização de arquiteturas. Essas iniciativas reforçam a percepção de que a arquitetura deixou de ser um aspecto secundário e passou a ocupar papel central no desenvolvimento de sistemas.
 
